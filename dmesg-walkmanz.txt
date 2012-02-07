@@ -1,0 +1,385 @@
+<6>[    0.000000] Initializing cgroup subsys cpu
+<5>[    0.000000] Linux version 2.6.36.3 (walkman@build04) (gcc version 4.4.3 (GCC) ) #1 SMP PREEMPT Wed Oct 26 19:15:06 JST 2011
+<4>[    0.000000] CPU: ARMv7 Processor [411fc090] revision 0 (ARMv7), cr=10c53c7f
+<4>[    0.000000] CPU: VIPT nonaliasing data cache, VIPT nonaliasing instruction cache
+<4>[    0.000000] Machine: icx1216
+<4>[    0.000000] Ignoring unrecognised tag 0x41000801
+<4>[    0.000000] Ignoring unrecognised tag 0x41000801
+<4>[    0.000000] Ignoring unrecognised tag 0x41000801
+<4>[    0.000000] Ignoring unrecognised tag 0x41000801
+<4>[    0.000000] Ignoring unrecognised tag 0x41000801
+<4>[    0.000000] Ignoring unrecognised tag 0x41000801
+<4>[    0.000000] Ignoring unrecognised tag 0x41000801
+<6>[    0.000000] Tegra reserved memory:
+<6>[    0.000000] LP0:                    1e99c000 - 1e99dfff
+<6>[    0.000000] Bootloader framebuffer: 00000000 - ffffffff
+<6>[    0.000000] Framebuffer:            16800000 - 16ffffff
+<6>[    0.000000] 2nd Framebuffer:         17000000 - 17ffffff
+<6>[    0.000000] Carveout:               18000000 - 1fffffff
+<4>[    0.000000] Memory policy: ECC disabled, Data cache writealloc
+<7>[    0.000000] On node 0 totalpages: 92160
+<7>[    0.000000] free_area_init_node: node 0, pgdat c0584ee0, node_mem_map c0649000
+<7>[    0.000000]   Normal zone: 1024 pages used for memmap
+<7>[    0.000000]   Normal zone: 0 pages reserved
+<7>[    0.000000]   Normal zone: 91136 pages, LIFO batch:31
+<6>[    0.000000] PERCPU: Embedded 7 pages/cpu @c0a4e000 s5920 r8192 d14560 u65536
+<6>[    0.000000] pcpu-alloc: s5920 r8192 d14560 u65536 alloc=16*4096
+<6>[    0.000000] pcpu-alloc: [0] 0 [0] 1 
+<4>[    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 91136
+<5>[    0.000000] Kernel command line: nvmem=24M@488M mem=512M@0M vmalloc=152M video=tegrafb console=ttyS0,115200n8 debug_uartport=lsport usbcore.old_scheme_first=1 lp0_vec=8192@0x1e99c000 tegraboot=sdmmc board_level=0 gpt usb_iser=1042B848015922 
+<4>[    0.000000] icx1216_board_level = 0
+<6>[    0.000000] PID hash table entries: 2048 (order: 1, 8192 bytes)
+<6>[    0.000000] Dentry cache hash table entries: 65536 (order: 6, 262144 bytes)
+<6>[    0.000000] Inode-cache hash table entries: 32768 (order: 5, 131072 bytes)
+<6>[    0.000000] Memory: 360MB = 360MB total
+<5>[    0.000000] Memory: 357376k/357376k available, 166912k reserved, 0K highmem
+<5>[    0.000000] Virtual kernel memory layout:
+<5>[    0.000000]     vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+<5>[    0.000000]     fixmap  : 0xfff00000 - 0xfffe0000   ( 896 kB)
+<5>[    0.000000]     DMA     : 0xff000000 - 0xffe00000   (  14 MB)
+<5>[    0.000000]     vmalloc : 0xe0800000 - 0xf8000000   ( 376 MB)
+<5>[    0.000000]     lowmem  : 0xc0000000 - 0xe0000000   ( 512 MB)
+<5>[    0.000000]     pkmap   : 0xbfe00000 - 0xc0000000   (   2 MB)
+<5>[    0.000000]     modules : 0xbf000000 - 0xbfe00000   (  14 MB)
+<5>[    0.000000]       .init : 0xc0008000 - 0xc0032000   ( 168 kB)
+<5>[    0.000000]       .text : 0xc0032000 - 0xc0524000   (5064 kB)
+<5>[    0.000000]       .data : 0xc0542000 - 0xc05859a0   ( 271 kB)
+<6>[    0.000000] Hierarchical RCU implementation.
+<6>[    0.000000] 	RCU dyntick-idle grace-period acceleration is enabled.
+<6>[    0.000000] 	RCU-based detection of stalled CPUs is disabled.
+<6>[    0.000000] 	Verbose stalled-CPUs detection is disabled.
+<6>[    0.000000] NR_IRQS:448
+<6>[    8.512930] Calibrating delay loop... 1998.84 BogoMIPS (lpj=9994240)
+<6>[    8.782818] pid_max: default: 32768 minimum: 301
+<4>[    8.783035] Mount-cache hash table entries: 512
+<6>[    8.783442] Initializing cgroup subsys debug
+<6>[    8.783456] Initializing cgroup subsys cpuacct
+<6>[    8.783471] Initializing cgroup subsys freezer
+<6>[    8.783507] CPU: Testing write buffer coherency: ok
+<6>[    8.783684] Calibrating local timer... 249.87MHz, setting to 2.50MHz.
+<4>[    8.872994] CPU1: Booted secondary processor
+<6>[    8.873099] Brought up 2 CPUs
+<6>[    8.873112] SMP: Total of 2 processors activated (3997.69 BogoMIPS).
+<6>[    8.876796] regulator: core version 0.5
+<6>[    8.876951] regulator: dummy: 
+<6>[    8.877138] NET: Registered protocol family 16
+<6>[    8.877768] host1x bus init
+<6>[    8.878053] Tegra SKU: 15 Rev: A04 CPU Process: 1 Core Process: 2 Speedo ID: 1
+<6>[    8.878068] Tegra Revision: unknown SKU: 15 CPU Process: 1 Core Process: 2
+<3>[    8.878338] tegra2_init_sku_limits: Unknown sku clock avp.sclk
+<3>[    8.878352] tegra2_init_sku_limits: Unknown sku clock bsea.sclk
+<6>[    8.880803] Selecting UARTA as the debug console
+<6>[    8.880825] The debug console clock name is uarta
+<4>[    8.880999] *** CONFIG_USB_HOTPLUG=n ***
+<4>[    8.952835] in wireless_power_control
+<4>[    8.952843] module=0 on_off=1
+<4>[    8.952849] wpc : init --------------------------
+<6>[    8.952858] gpio requested: 122 as WlanChipPwdN
+<6>[    8.952866] gpio requested: 121 as BtRstN
+<6>[    8.952873] gpio requested: 120 as GpsPwrEn
+<4>[    8.952878] in WPC_MODULE_WIFI
+<4>[    8.952884] in wifi_powercontrol on_off=1
+<6>[    8.982835] KBC: icx1216_kbc_init
+<6>[    8.982989] [icx1216_gpio_request]gpio req: 168 as PnlPwrEn
+<6>[    8.982998] [icx1216_gpio_request]gpio req: 89 as PnlVddPwrOn
+<6>[    8.983007] [icx1216_gpio_request]gpio req: 141 as PnlXRset
+<6>[    8.983015] [icx1216_gpio_request]gpio req: 68 as PnlBlEn
+<4>[    8.983271] ramcode = 1
+<6>[    8.983285] tegra_init_emc: Hynix 300MHz memory found
+<6>[    9.092987] tegra_arb_init: initialized
+<4>[    9.093040] tegra_iovmm_register: added iovmm-gart
+<4>[    9.097665] bio: create slab <bio-0> at 0
+<5>[    9.098315] SCSI subsystem initialized
+<6>[    9.098654] tegra-otg tegra-otg: otg transceiver registered
+<6>[    9.098764] usbcore: registered new interface driver usbfs
+<6>[    9.098838] usbcore: registered new interface driver hub
+<6>[    9.098914] usbcore: registered new device driver usb
+<6>[    9.103980] tps6586x 4-0034: VERSIONCRC is 23
+<6>[    9.105499] regulator: REG-SM_0: 1000 <--> 1200 mV at 1225 mV normal standby
+<6>[    9.106217] regulator: REG-SM_1: 750 <--> 1050 mV at 1000 mV normal standby
+<6>[    9.107162] regulator: REG-SM_2: 3000 <--> 4550 mV at 4400 mV normal standby
+<6>[    9.107833] regulator: REG-LDO_0: 1200 mV normal standby
+<6>[    9.108635] regulator: REG-LDO_1: 1100 mV normal standby
+<6>[    9.109074] regulator: REG-LDO_2: 1200 mV normal standby
+<6>[    9.109500] regulator: REG-LDO_3: 2850 mV normal standby
+<6>[    9.110314] regulator: REG-LDO_4: 1800 mV normal standby
+<6>[    9.110609] regulator: REG-LDO_5: 2850 mV normal standby
+<6>[    9.111281] regulator: REG-LDO_6: 3300 mV normal standby
+<6>[    9.111729] regulator: REG-LDO_7: 2850 mV normal standby
+<6>[    9.112169] regulator: REG-LDO_8: 1800 mV normal standby
+<6>[    9.112470] regulator: REG-LDO_9: 1800 mV normal standby
+<4>[    9.112623] starting TPS6586X ADC DRIVER...
+<6>[    9.113346] Advanced Linux Sound Architecture Driver Version 1.0.23.
+<6>[    9.113628] Bluetooth: Core ver 2.15
+<6>[    9.113672] NET: Registered protocol family 31
+<6>[    9.113679] Bluetooth: HCI device and connection manager initialized
+<6>[    9.113689] Bluetooth: HCI socket layer initialized
+<6>[    9.113783] Switching to clocksource timer_us
+<6>[    9.114316] tegra-nvmap tegra-nvmap: created carveout iram (256KiB)
+<6>[    9.179535] tegra-nvmap tegra-nvmap: created carveout generic-0 (131072KiB)
+<4>[    9.180140] starting WMPORT DRIVER...
+<6>[    9.180150] wmport: major number = 252
+<4>[    9.180482] starting MAX8677C_ICX charger dirver...
+<4>[    9.483830] MAX8677C_ICX: unreg mode = VBAT
+<4>[    9.483841] MAX8677C_ICX: chgsw: dc = off, vbus = on, limit = 100, charge = off
+<6>[    9.484037] NET: Registered protocol family 2
+<6>[    9.484134] IP route cache hash table entries: 4096 (order: 2, 16384 bytes)
+<6>[    9.484405] TCP established hash table entries: 16384 (order: 5, 131072 bytes)
+<6>[    9.484618] TCP bind hash table entries: 16384 (order: 5, 196608 bytes)
+<6>[    9.484833] TCP: Hash tables configured (established 16384 bind 16384)
+<6>[    9.484841] TCP reno registered
+<6>[    9.484850] UDP hash table entries: 256 (order: 1, 8192 bytes)
+<6>[    9.484871] UDP-Lite hash table entries: 256 (order: 1, 8192 bytes)
+<6>[    9.485016] NET: Registered protocol family 1
+<6>[    9.485157] Unpacking initramfs...
+<6>[    9.497761] Freeing initrd memory: 248K
+<6>[    9.497838] PMU: registered new PMU device of type 0
+<6>[    9.498476] icx_vpp_fuse_init()
+<6>[    9.510192] ashmem: initialized
+<6>[    9.510938] fuse init (API version 7.15)
+<6>[    9.511705] io scheduler noop registered (default)
+<6>[    9.512615] tegra_grhost tegra_grhost: initialized
+<6>[    9.512660] host1x: tegradc tegradc
+<6>[    9.512892] tegradc tegradc.0: probed
+<6>[    9.513249] tegradc tegradc.0: probed
+<6>[    9.513370] tegradc tegradc.0: registered overlay
+<6>[    9.513382] host1x: tegradc tegradc
+<4>[    9.513882] nvhdcp: tegra_nvhdcp_create(): created misc device nvhdcp1
+<6>[    9.513986] nvhdcp: using "always on" policy.
+<6>[    9.514002] tegradc tegradc.1: probed
+<6>[    9.514547] tegradc tegradc.1: probed
+<6>[    9.514669] tegradc tegradc.1: registered overlay
+<6>[    9.515038] Serial: 8250/16550 driver, 4 ports, IRQ sharing disabled
+<6>[    9.515471] serial8250.0: ttyS0 at MMIO 0x70006000 (irq = 68) is a Tegra
+<6>[   10.275379] console [ttyS0] enabled
+<6>[   10.279026] serial8250.3: ttyS1 at MMIO 0x70006300 (irq = 122) is a Tegra
+<6>[   10.285994] tegra_uart.1: ttyHS1 at I/O 0x0 (irq = 69) is a unknown
+<6>[   10.292321] Registered UART port ttyHS1
+<6>[   10.296186] tegra_uart.2: ttyHS2 at I/O 0x0 (irq = 78) is a unknown
+<6>[   10.302505] Registered UART port ttyHS2
+<6>[   10.306382] Initialized tegra uart driver
+<6>[   10.312095] loop: module loaded
+<6>[   10.316182] nct1008 4-004c: nct1008_probe: initialized
+<6>[   10.321464] mbm_pm_init called
+<4>[   10.324762] in wireless_power_control
+<4>[   10.328417] module=1 on_off=1
+<4>[   10.331375] in WPC_MODULE_BLUETOOTH
+<6>[   10.335048] PPP generic driver version 2.4.2
+<6>[   10.339402] PPP Deflate Compression module registered
+<4>[   10.344460] in bluetooth_powercontrol on_off=1
+<6>[   10.348900] PPP BSD Compression module registered
+<6>[   10.354062] PPP MPPE Compression module registered
+<6>[   10.358847] NET: Registered protocol family 24
+<6>[   10.363632] usbcore: registered new interface driver cdc_ether
+<6>[   10.369498] usbcore: registered new interface driver CDC NCM device
+<6>[   10.375828] usbcore: registered new interface driver cdc_subset
+<6>[   10.381786] usbcore: registered new interface driver cdc_acm
+<6>[   10.387445] cdc_acm: v0.26:USB Abstract Control Model driver for USB modems and ISDN adapters
+<6>[   10.395993] usbcore: registered new interface driver cdc_wdm
+<6>[   10.401642] Initializing USB Mass Storage driver...
+<6>[   10.406563] usbcore: registered new interface driver usb-storage
+<6>[   10.412558] USB Mass Storage support registered.
+<6>[   10.417214] usbcore: registered new interface driver libusual
+<6>[   10.423034] usbcore: registered new interface driver usbserial
+<6>[   10.428869] usbserial: USB Serial Driver core
+<6>[   10.433244] USB Serial support registered for GSM modem (1-port)
+<6>[   10.439292] usbcore: registered new interface driver option
+<6>[   10.444862] option: v0.7.2:USB Driver for GSM modems
+<6>[   10.449842] USB Serial support registered for pl2303
+<6>[   10.454872] usbcore: registered new interface driver pl2303
+<6>[   10.460435] pl2303: Prolific PL2303 USB to serial adaptor driver
+<6>[   10.466439] NVidia Tegra High-Speed USB SOC Device Controller driver (Apr 20, 2007)
+<6>[   10.480650] tegra-otg tegra-otg: SUSPEND --> PERIPHERAL
+<6>[   10.485946] android init
+<6>[   10.488502] android_probe pdata: c0562098
+<6>[   10.492542] android_bind
+<7>[   10.500130] android_bind_config
+<6>[   10.500246] android_usb gadget: android_usb ready
+<6>[   10.504954] fsl-tegra-udc: bind to driver android_usb
+<4>[   10.510025] MAX8677C_ICX: chglmt: dc = off, vbus = on, limit = 0, charge = off, force unchg = no.
+<6>[   10.518933] f_adb init
+<6>[   10.521287] android_register_function adb
+<6>[   10.525307] f_mass_storage init
+<6>[   10.528466] fsg_probe pdev: c05625a0, pdata: c0562e84
+<6>[   10.533543] android_register_function usb_mass_storage
+<6>[   10.538782] android_usb gadget: Mass Storage Function, version: 2009/09/11
+<6>[   10.545657] android_usb gadget: Number of LUNs=1
+<6>[   10.550267]  lun0: LUN: removable file: (no medium)
+<6>[   10.555272] adb_bind_config
+<6>[   10.558510] input: tegra-keypad as /devices/platform/tegra-keypad/input/input0
+<6>[   10.664789] bus_resume() udc->usb_state = 0x1.
+<4>[   10.669255] MAX8677C_ICX: chglmt: dc = off, vbus = on, limit = 100, charge = off, force unchg = no.
+<6>[   10.678779] [synaptics_ts_probe()]reg[0x98] = 0x04
+<6>[   10.684027] input: synaptics-icx as /devices/virtual/input/input1
+<6>[   10.690767] probe: nbx_accelerometer
+<6>[   10.694628] input: nbx_accelerometer as /devices/virtual/input/input2
+<6>[   10.701281] probe: nbx_magnetometer
+<6>[   10.705076] input: nbx_magnetometer as /devices/virtual/input/input3
+<6>[   10.713964] using rtc device, tps6586x-rtc, for alarms
+<6>[   10.718934] tps6586x-rtc tps6586x-rtc.0: rtc core: registered tps6586x-rtc as rtc0
+<6>[   10.727118] i2c /dev entries driver
+<6>[   10.731083] lirc_dev: IR Remote Control driver registered, major 249 
+<6>[   10.737528] IR LIRC bridge handler initialized
+<6>[   10.741962] Linux video capture interface: v2.00
+<6>[   10.746787] usbcore: registered new interface driver uvcvideo
+<6>[   10.752522] USB Video Class driver (v0.1.0)
+<6>[   10.756834] trpc_sema_init: registered misc dev 10:51
+<6>[   10.761933] trpc_node_register: Adding 'local' to node list
+<6>[   10.767719] trpc_node_register: Adding 'avp-remote' to node list
+<6>[   10.773866] tegra_avp_probe: driver registered, kernel 18100000(e0a00000), msg area 1631d000/1631d110
+<6>[   10.783308] ov5650 sensor driver loading
+<4>[   10.787289] MAX8677C_ICX: chglmt: dc = off, vbus = on, limit = 100, charge = off, force unchg = no.
+<6>[   10.796418] ov2710 sensor driver loading
+<6>[   10.800658] device-mapper: uevent: version 1.0.3
+<6>[   10.805481] device-mapper: ioctl: 4.18.0-ioctl (2010-06-29) initialised: dm-devel@redhat.com
+<6>[   10.813946] Bluetooth: HCI UART driver ver 2.2
+<6>[   10.818381] Bluetooth: HCI H4 protocol initialized
+<6>[   10.823161] Bluetooth: HCI BCSP protocol initialized
+<6>[   10.828124] Bluetooth: HCILL protocol initialized
+<6>[   10.832819] Bluetooth: BlueSleep Mode Driver Ver 1.1
+<6>[   10.838167] cpuidle: using governor ladder
+<6>[   10.842417] cpuidle: using governor menu
+<6>[   10.846388] sdhci: Secure Digital Host Controller Interface driver
+<6>[   10.852567] sdhci: Copyright(c) Pierre Ossman
+<4>[   10.857003] mmc0: Invalid maximum block size, assuming 512 bytes
+<6>[   10.868439] mmc0: SDHCI controller on tegra [sdhci-tegra.3] using ADMA
+<6>[   10.874975] sdhci3: initialized irq 63 ioaddr fe600600
+<4>[   10.880141] mmc1: Invalid maximum block size, assuming 512 bytes
+<6>[   10.886169] mmc1: no vmmc regulator found
+<6>[   10.890266] mmc1: SDHCI controller on tegra [sdhci-tegra.2] using ADMA
+<6>[   10.896859] sdhci2: initialized irq 51 ioaddr fe600400
+<4>[   10.902022] mmc2: Invalid maximum block size, assuming 512 bytes
+<6>[   10.909065] mmc2: no vmmc regulator found
+<6>[   10.913163] mmc2: SDHCI controller on tegra [sdhci-tegra.0] using ADMA
+<6>[   10.919706] sdhci0: initialized irq 46 ioaddr fe600000
+<6>[   10.927175] tegra-aes tegra-aes: registered
+<6>[   10.931468] usbcore: registered new interface driver usbhid
+<6>[   10.937254] usbhid: USB HID core driver
+<6>[   10.941320] logger: created 64K log 'log_main'
+<6>[   10.945867] logger: created 256K log 'log_events'
+<6>[   10.950658] logger: created 64K log 'log_radio'
+<6>[   10.955291] logger: created 64K log 'log_system'
+<4>[   10.960211] CS47L01 codec driver starting...
+<6>[   10.965619] android_usb gadget: high speed config #1: android
+<4>[   10.971457] MAX8677C_ICX: chglmt: dc = off, vbus = on, limit = 500, charge = on, force unchg = no.
+<6>[   11.034788] mmc0: new high speed MMC card at address 0001
+<6>[   11.040373] mmcblk0: mmc0:0001 MBG8FA 29.8 GiB 
+<4>[   11.057743] Primary GPT is invalid, using alternate GPT.
+<6>[   11.063080]  mmcblk0: p1 (婚0) p2 (婚1) p3 (䅃C) p4 (卍C) p5 (单P) p6 (䱂F) p7 (婚N) p8 (䅄P) p9 (佌G) p10 (婚3) p11 (䅍N) p12 (䑓C)
+<4>[   11.200495] mmc2: queuing unknown CIS tuple 0x80 (1 bytes)
+<4>[   11.206045] mmc2: queuing unknown CIS tuple 0x81 (1 bytes)
+<4>[   11.211582] mmc2: queuing unknown CIS tuple 0x82 (1 bytes)
+<6>[   11.217089] mmc2: new high speed SDIO card at address 0001
+<4>[   11.309778] cs47l01 chip id = 0047A010
+<6>[   11.449709] tegra_i2s_driver_probe
+<6>[   11.453149] tegra_i2s_driver_probe
+<6>[   11.456595] i2s_set_channel_bit_count: enabling non-symmetric mode
+<6>[   11.462878] tegra_spdif_driver_probe
+<6>[   11.466965] asoc: cs47l01 HiFi <-> tegra-i2s-1 mapping ok
+<6>[   11.472571] asoc: tegra_generic_spdif_codec <-> tegra-spdif mapping ok
+<6>[   11.479631] ALSA device list:
+<6>[   11.482595]   #0: tegra (cs47l01)
+<6>[   11.485970] GACT probability NOT on
+<6>[   11.489457] Mirror/redirect action on
+<6>[   11.493112] u32 classifier
+<6>[   11.495823]     Actions configured
+<6>[   11.499219] Netfilter messages via NETLINK v0.30.
+<6>[   11.503960] nf_conntrack version 0.5.0 (5587 buckets, 22348 max)
+<6>[   11.510172] ctnetlink v0.93: registering with nfnetlink.
+<6>[   11.515589] xt_time: kernel timezone is -0000
+<6>[   11.520086] ip_tables: (C) 2000-2006 Netfilter Core Team
+<6>[   11.525475] arp_tables: (C) 2002 David S. Miller
+<6>[   11.530115] TCP cubic registered
+<6>[   11.533510] NET: Registered protocol family 10
+<6>[   11.538380] lo: Disabled Privacy Extensions
+<6>[   11.542763] Mobile IPv6
+<6>[   11.545223] IPv6 over IPv4 tunneling driver
+<6>[   11.549663] sit0: Disabled Privacy Extensions
+<4>[   11.554307] CS47L01: hp(5pin) detect.
+<6>[   11.558113] ip6tnl0: Disabled Privacy Extensions
+<6>[   11.562778] NET: Registered protocol family 17
+<6>[   11.567248] NET: Registered protocol family 15
+<6>[   11.571759] Bluetooth: L2CAP ver 2.15
+<6>[   11.575426] Bluetooth: L2CAP socket layer initialized
+<6>[   11.580476] Bluetooth: SCO (Voice Link) ver 0.6
+<6>[   11.585017] Bluetooth: SCO socket layer initialized
+<6>[   11.589952] Bluetooth: RFCOMM TTY layer initialized
+<6>[   11.594838] Bluetooth: RFCOMM socket layer initialized
+<6>[   11.599968] Bluetooth: RFCOMM ver 1.11
+<6>[   11.603709] Bluetooth: BNEP (Ethernet Emulation) ver 1.3
+<6>[   11.609048] Bluetooth: HIDP (Human Interface Emulation) ver 1.2
+<4>[   11.619443] Disabling clock stat_mon left on by bootloader
+<4>[   11.624958] Disabling clock fuse_burn left on by bootloader
+<3>[   11.630670] Tegra protected aperture disabled because nvmap is using system memory
+<6>[   11.638246] VFP support v0.3: implementor 41 architecture 3 part 30 variant 9 rev 1
+<6>[   11.646382] regulator_init_complete: disabling REG-LDO_6
+<6>[   11.652499] tps6586x-rtc tps6586x-rtc.0: setting system clock to 2012-01-05 04:29:14 UTC (1325737754)
+<6>[   11.661916] Freeing init memory: 168K
+<4>[   11.669649] stuid: module license 'Proprietary' taints kernel.
+<4>[   11.675537] Disabling lock debugging due to kernel taint
+<4>[   11.684327] EXT2-fs (mmcblk0p1): warning: feature flags set on rev 0 fs, running e2fsck is recommended
+<6>[   11.770140] EXT4-fs (mmcblk0p2): mounted filesystem with ordered data mode. Opts: (null)
+<7>[   11.983171] MGSCSI is not united!(INQUIRY) reply=-22
+<6>[   12.394675] EXT4-fs (mmcblk0p10): recovery complete
+<6>[   12.406777] EXT4-fs (mmcblk0p10): mounted filesystem with ordered data mode. Opts: (null)
+<6>[   12.535750] EXT4-fs (mmcblk0p3): recovery complete
+<6>[   12.542756] EXT4-fs (mmcblk0p3): mounted filesystem with ordered data mode. Opts: (null)
+<7>[   12.691779] EXT4-fs (mmcblk0p9): ext4_orphan_cleanup: deleting unreferenced inode 33
+<7>[   12.692030] EXT4-fs (mmcblk0p9): ext4_orphan_cleanup: deleting unreferenced inode 31
+<6>[   12.692121] EXT4-fs (mmcblk0p9): 2 orphan inodes deleted
+<6>[   12.697479] EXT4-fs (mmcblk0p9): recovery complete
+<6>[   12.737117] EXT4-fs (mmcblk0p9): mounted filesystem with ordered data mode. Opts: (null)
+<4>[   12.801917] init (1): /proc/1/oom_adj is deprecated, please use /proc/1/oom_score_adj instead.
+<4>[   12.811655] in wireless_power_control
+<4>[   12.815331] module=1 on_off=0
+<4>[   12.818294] in WPC_MODULE_BLUETOOTH
+<4>[   12.821775] in bluetooth_powercontrol on_off=0
+<3>[   12.839013] init: cannot find '/system/etc/install-recovery.sh', disabling 'flash_recovery'
+<6>[   12.855609] warning: `adbd' uses 32-bit capabilities (legacy support in use)
+<6>[   12.862729] enabling adb
+<6>[   12.884828] adb_open(adbd)
+<4>[   12.887626] MAX8677C_ICX: chglmt: dc = off, vbus = on, limit = 0, charge = off, force unchg = no.
+<6>[   12.968625] starting icx_nvp_emmc driver.
+<6>[   12.972639]   storage name = /dev/block/mmcblk0p7
+<6>[   12.980552]   head sector = 0
+<6>[   12.983520]   sector count = 32768
+<6>[   12.986940]   boot option = 0x00000000
+<6>[   12.992273] input: WMPORT as /devices/virtual/input/input4
+<6>[   13.006841]   driver version = 0x00000001
+<6>[   13.010850]   saved version = 0x00000001
+<3>[   13.078676] power_supply max17042_battery: driver failed to report `status' property
+<7>[   13.081099] bus_resume() restored.
+<4>[   13.081164] MAX8677C_ICX: chglmt: dc = off, vbus = on, limit = 100, charge = off, force unchg = no.
+<6>[   13.081637] adb_release
+<6>[   13.081794] adb_open(adbd)
+<3>[   13.100791] power_supply max17042_battery: driver failed to report `status' property
+<4>[   13.171961] starting DNC driver...
+<4>[   13.205748] MAX8677C_ICX: chglmt: dc = off, vbus = on, limit = 100, charge = off, force unchg = no.
+<4>[   13.251170] starting si4708icx fm tuner driver...
+<4>[   13.256372] deemphasis mode = 50us
+<4>[   13.278002] Si4708icx: Device ID : 1242
+<4>[   13.285573] Si4708icx: Chip ID   : 1000
+<6>[   13.366819] android_usb gadget: high speed config #1: android
+<4>[   13.372672] MAX8677C_ICX: chglmt: dc = off, vbus = on, limit = 500, charge = on, force unchg = no.
+<4>[   13.654528] CS47L01: no hp.
+<4>[   14.279015] Honkagi
+<6>[   14.288130] MGSCSI: register_mgscsi_func(true)
+<1>[   28.954247] ar6000_avail_ev() TARGET VER: 0x30000582
+<1>[   28.960582] AR6000: configuration opcode 7 is only used for RTOS systems, not Linux systems
+<6>[   29.016753] request_suspend_state: wakeup (3->0) at 20502930003 (2012-01-05 04:29:32.352445000 UTC)
+<1>[   29.457719] AR6K: ** HIF layer does not support scatter requests (17) 
+<1>[   29.490661] wmi_control_rx() : Unknown id 0x101e
+<1>[   30.084762] Add Filter 0 = 33:33:00:00:00:01
+<1>[   30.089167] Keep Filter 0 = 33:33:00:00:00:01
+<1>[   30.104742] Keep Filter 0 = 33:33:00:00:00:01
+<1>[   30.109138] Add Filter 1 = 01:00:5e:00:00:01
+<6>[   30.115678] ADDRCONF(NETDEV_UP): wlan0: link is not ready
+<1>[   35.419524] Delete Filter 0 = 33:33:00:00:00:01
+<1>[   35.424902] Delete Filter 1 = 01:00:5e:00:00:01
+<6>[   35.439798] tegra_uart tegra_uart.1: Setting clk_src pll_m
+<6>[   35.464904] tegra_uart tegra_uart.1: Setting clk_src pll_m
+<6>[   35.473090] tegra_uart tegra_uart.1: Setting clk_src pll_m
+<6>[   35.480056] mbm_pm_notifier_store: GPS HAL pid=169
+<6>[   35.486198] mbm_pm_notifier_show: blocking
+<3>[   35.634166] init: untracked pid 194 exited
+<3>[   96.360616] init: untracked pid 897 exited

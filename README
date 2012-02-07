@@ -1,0 +1,22 @@
+README
+	this file
+
+dmesg-walkmanz.txt
+	adb shell dmesg
+
+lsmod-walkmanz.txt
+	adb shell lsmod
+
+cpuinfo-walkmanz.txt
+	adb shell cat /proc/cpuinfo
+
+dot.config-walkmanz.txt
+	adb pull /proc/config.gz config.gz
+	zcat config.gz
+
+df-walkmanz.txt
+	adb shell df
+
+getprop-walkmanz.txt
+	adb shell getprop
+

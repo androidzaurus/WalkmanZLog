@@ -1,0 +1,11 @@
+Filesystem             Size   Used   Free   Blksize
+/dev                   174M    32K   174M   4096
+/configs                 1M    52K     1M   4096
+/mnt/asec              174M     0K   174M   4096
+/mnt/obb               174M     0K   174M   4096
+/system                503M   204M   299M   4096
+/data                 1007M   218M   789M   4096
+/cache                 503M     9M   494M   4096
+/log                    15M    11M     4M   4096
+/mnt/sdcard             27G    13G    13G   32768
+/mnt/secure/asec: Permission denied

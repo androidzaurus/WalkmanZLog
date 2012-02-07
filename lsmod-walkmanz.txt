@@ -1,0 +1,10 @@
+ar6000 469695 0 - Live 0xbf4e4000
+mgscsi 2627022 0 - Live 0xbf179000 (P)
+mgscc 651279 1 mgscsi, Live 0xbf0d0000 (P)
+mg 455400 2 mgscsi,mgscc, Live 0xbf058000 (P)
+radio_si4708icx 9278 0 - Live 0xbf04f000
+icx_diag 2264 0 - Live 0xbf049000 (P)
+cs47l01_dnc_core 10334 0 - Live 0xbf041000 (P)
+max17042_battery 7492 0 - Live 0xbf039000
+icx_nvp_emmc 21491 6 mgscsi,mgscc,mg,icx_diag,cs47l01_dnc_core,max17042_battery, Live 0xbf02d000 (P)
+stuid 160261 0 [permanent], Live 0xbf000000 (P)
